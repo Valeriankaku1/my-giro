@@ -578,58 +578,9 @@ section_4 {
 
 
 /*настройка адоптации*/
-
-
-
-@media (max-width: 1750px) {
-    .description-1 {
-        padding-right: 550px;
-        padding-left: 550px;
-    }
-
-    .align-2 {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
-
-    .information {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
-
-    .consul {
-        padding-left: 300px;
-        padding-right: 300px;
-
-    }
-
-    .brend {
-        font-size: 40px;
-        min-height: 165px;
-        line-height: 165px;
-    }
-
-    .footer {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
-}
-
-@media (max-width: 1655px) {
-    .name-company {
-        font-size: 25px;
-    }
-
-    .menu-item {
-        font-size: 15px;
-    }
-}
+/*размеры адаптации - 605 * 672*/
 
 @media (max-width:1600px) {
-
-    .name-company {
-        font-size: 25px;
-    }
 
     .align-2 {
         padding-left: 200px;
@@ -652,26 +603,11 @@ section_4 {
         line-height: 135px;
     }
 
-    .consul {
-        padding-left: 0px;
-        padding-right: 0px;
 
-    }
-
-    .fotooc {
-        height: 100px;
-        width: 75px;
-    }
 
     .footer {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .brend {
-        font-size: 10px;
-        min-height: 90px;
-        line-height: 50px;
+        padding-left: 300px;
+        padding-right: 300px;
     }
 
     .description-1 {
@@ -680,13 +616,74 @@ section_4 {
     }
 
     .sub-head {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .name-company {
+        font-size: 85%;
     }
 
     .menu-item {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 0px;
+        padding-right: 1px;
+        border-left: 0px;
+        font-size: 10px;
+        margin-left: 12px;
+    }
+
+    .menu-link {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+
+
+    .align-2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .fotooc {
+        width: 65px;
+        height: 65px;
+        padding-top: 20px;
+    }
+
+    .textt {
+        width: 65px;
+        height: 65px;
+        padding-bottom: 25px;
+    }
+
+    .names {
         font-size: 12px;
     }
+
+    .karta-consul {
+        width: 170px;
+        height: 185px;
+    }
+
+    .containterForConsult {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .printt {
+        width: 65px;
+        height: 65px;
+    }
+
+    .footer {
+        padding-left: 20px;
+    }
+
+    .footer-table1 {
+        padding-right: 15px;
+    }
+
+
+
 }
